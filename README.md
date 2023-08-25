@@ -8,7 +8,9 @@ The TelegramBot C2C is a Python POC script that leverages the Telegram Bot API a
 
 <h4>Demonstration Video:</h4>
 
-Will be upload soon!
+![Video of C2C telegram bot](pics/the_final_video_compress.gif)
+
+Note: The full video is in the pics directory.
 
 <h2 align="center">Disclaimer</h2>
 This tool is provided for educational purposes only. The authors are not responsible for any misuse or damage caused by this tool. Use at your own risk.
