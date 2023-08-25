@@ -63,9 +63,11 @@ Execute the create_agents.py and insert the amount of bots you want to use and t
 
 - When the target will execute the agent script it will wait to get commands via the telegram chat.
 
-  '''
-    python shell.py
-  '''
+
+'''
+  python shell.py
+'''
+
     
 - Interact with the agent:
 In the Telegram group, send commands prefixed with linux, windows, or custom to execute predefined Linux, Windows, or custom commands respectively. The agent will execute the command and reply with the output.
