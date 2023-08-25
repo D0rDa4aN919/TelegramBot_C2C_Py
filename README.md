@@ -1,7 +1,7 @@
-# TelegramBot_C2C_Tool
+# TelegramBot_C2C_Py
 C2C tool that use the chat of telegram group as the C2C interface. The bots as agents that execute the command and send the result.
 
-TelegramBot Reverse Shell Tool
+TelegramBot_C2C_Py
 The TelegramBot Reverse Shell Tool is a Python script that leverages the Telegram Bot API to establish a covert command and control (C2C) communication channel with remote agents. This tool enables you to execute predefined Linux, Windows, and custom commands on target systems and receive their output directly through Telegram. The use of the Telegram API allows for seamless communication without requiring Telegram to be installed on the target systems.
 
 Features
