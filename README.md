@@ -101,8 +101,8 @@ The tool was developed to demonstrate how to produce and disseminate C2C telegra
 
 <h2 align="center">reference</h2>
 
-- (C2C Telegram Chat Bot)[]
+- [C2C Telegram Chat Bot]()
 
-- (Telegram API Documentation)[https://core.telegram.org/]
+- [Telegram API Documentation](https://core.telegram.org/)
 
-- (Commmand and Control)[]
+- [Commmand and Control]()
