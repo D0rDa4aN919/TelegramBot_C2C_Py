@@ -37,7 +37,7 @@ This tool is provided for educational purposes only. The authors are not respons
 
 <h2>Usage</h2>
 
-threat actor side:
+<h4>Threat actor side:</h4>
 
 - Clone this repository to your local machine:
 
@@ -59,12 +59,13 @@ Execute the create_agents.py and insert the amount of bots you want to use and t
 
 - Transfer the new agents scripts to the targets machines.
 
-Target side:
+<h4>Target side:</h4>
 
 - When the target will execute the agent script it will wait to get commands via the telegram chat.
-  - '''
-      python shell.py
-    '''
+
+'''
+  python shell.py
+'''
     
 - Interact with the agent:
 In the Telegram group, send commands prefixed with linux, windows, or custom to execute predefined Linux, Windows, or custom commands respectively. The agent will execute the command and reply with the output.
