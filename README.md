@@ -98,3 +98,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <h2 align="center">Acknowledgments</h2>
 The tool was developed to demonstrate how to produce and disseminate C2C telegram in a controlled setting. It is not meant to support or facilitate any nefarious or unlawful activity..
+
+<h2 align="center">reference</h2>
+
+- (C2C Telegram Chat Bot)[]
+
+- (Telegram API Documentation)[https://core.telegram.org/]
+
+- (Commmand and Control)[]
