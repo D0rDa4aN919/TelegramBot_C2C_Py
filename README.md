@@ -62,9 +62,7 @@ Execute the create_agents.py and insert the amount of bots you want to use and t
 Target side:
 
 - When the target will execute the agent script it will wait to get commands via the telegram chat.
-  -
-
-   '''
+  - '''
       python shell.py
     '''
     
