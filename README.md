@@ -46,7 +46,7 @@ This tool is provided for educational purposes only. The authors are not respons
 - Clone this repository to your local machine:
 
 ```
-  git clone https://github.com/yourusername/telegrambot-reverse-shell.git
+  git clone https://github.com/D0rDa4aN919/TelegramBot_C2C_Py.git
   cd telegrambot-reverse-shell
 ```
 
