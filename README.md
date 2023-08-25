@@ -66,7 +66,7 @@ This tool is provided for educational purposes only. The authors are not respons
 - Edit the shell.py file:
   - Execute the create_agents.py and insert the amount of bots you want to use and there APIs, it will insert them and create new file in the ready_agents directory.
 
-![Show the use of create_agents.py](pics/)
+![Show the use of create_agents.py](pics/create_agents.jpg)
 
 - Transfer the new agents scripts to the targets machines.
 
