@@ -2,6 +2,7 @@
 The TelegramBot C2C is a Python script that leverages the Telegram Bot API and the legimitmate use of API to establish a covert command and control (C2C) communication channel with remote agents(telegram bots as the agents). This tool enables you to execute predefined Linux, Windows, and custom commands on target systems and receive their output directly through Telegram group or chat. The use of the Telegram API allows for seamless communication without requiring Telegram to be installed on the target systems. Due to the use of the chat as the C2C interface it could run on the WAN without configration(even in VM network of NAT). The script will install all the requirements for the it run.
 
 <h2 align="center">Features</h2>
+
 - Command execution on remote target systems through Telegram.
 - Secure communication using Telegram's API.
 - Cross-platform support for Linux and Windows targets.
@@ -13,7 +14,7 @@ The TelegramBot C2C is a Python script that leverages the Telegram Bot API and t
 <h4>Thread actor side</h4>
 
 - python 3.x:
-  - [requests library](https://requests.readthedocs.io/en/latest/) (Install
+  - [requests library](https://requests.readthedocs.io/en/latest/) (Install using pip install requests)
  
 - Script Needs:
   - Install telegram and connect to the telegram account.
