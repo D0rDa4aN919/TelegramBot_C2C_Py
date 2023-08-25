@@ -1,5 +1,13 @@
 <h1 align="center">TelegramBot_C2C_Py</h1>
-The TelegramBot C2C is a Python script that leverages the Telegram Bot API and the legimitmate use of API to establish a covert command and control (C2C) communication channel with remote agents(telegram bots as the agents). This tool enables you to execute predefined Linux, Windows, and custom commands on target systems and receive their output directly through Telegram group or chat. The use of the Telegram API allows for seamless communication without requiring Telegram to be installed on the target systems. Due to the use of the chat as the C2C interface it could run on the WAN without configration(even in VM network of NAT). The script will install all the requirements for the it run.
+The TelegramBot C2C is a Python script that leverages the Telegram Bot API and the legimitmate use of API to establish a covert command and control (C2C) communication channel with remote agents(telegram bots as the agents). This tool enables you to execute predefined Linux, Windows, and custom commands on target systems and receive their output directly through Telegram group or chat. The use of the Telegram API allows for seamless communication without requiring Telegram to be installed on the target systems. Due to the use of the chat as the C2C interface it could run on the WAN without configration(even in VM network of NAT), and bypass the defender(the only AV check). The script will install all the requirements for it run process.
+
+<h4>Demonstration digram:</h4>
+
+![Digram of C2C telegram bot](pics/c2c_digram.jpg)
+
+<h4>Show case:</h4>
+
+
 
 <h2 align="center">Disclaimer</h2>
 This tool is provided for educational purposes only. The authors are not responsible for any misuse or damage caused by this tool. Use at your own risk.
@@ -53,16 +61,16 @@ This tool is provided for educational purposes only. The authors are not respons
   - Get the chat id from the API getUpdate url: https://api.telegram.org/bot[bot API token]/getUpdates.
   - You can use tools like @userinfobot to get the chat ID of your group.
 
-!()[]
+![Show the use of get_chat_id.py](pics/get_chat_id_b.png)
     
 - Edit the shell.py file:
   - Execute the create_agents.py and insert the amount of bots you want to use and there APIs, it will insert them and create new file in the ready_agents directory.
 
-!()[]
+![Show the use of create_agents.py](pics/)
 
 - Transfer the new agents scripts to the targets machines.
 
-!(Transfer the scripts)[pics/transfer_the_bots.jpg]
+![Transfer the scripts](pics/transfer_the_bots.jpg)
 
 <h4>Target side:</h4>
 
@@ -71,15 +79,13 @@ This tool is provided for educational purposes only. The authors are not respons
 - Interact with the agent:
 In the Telegram group, send commands prefixed with linux, windows, or custom to execute predefined Linux, Windows, or custom commands respectively. The agent will execute the command and reply with the output.
 
-!()[]
+![Show the C2C interfaec](pics/C2C.jpg)
 
 <h2 align="center">Security Considerations</h2>
 
 Use responsibly: This tool is intended for educational and ethical purposes. Do not use it for malicious intent.
 Risk of exposure: While the Telegram API offers encryption, there is always a risk of exposure. Avoid sending sensitive information through the tool.
 Legality: Ensure that you comply with local laws and regulations before using this tool.
-
-
 
 <h2 align="center">License</h2>
 
