@@ -5,10 +5,6 @@ The TelegramBot C2C is a Python script that leverages the Telegram Bot API and t
 
 ![Digram of C2C telegram bot](pics/c2c_digram.jpg)
 
-<h4>Demonstration Video:</h4>
-
-
-
 <h2 align="center">Disclaimer</h2>
 This tool is provided for educational purposes only. The authors are not responsible for any misuse or damage caused by this tool. Use at your own risk.
 
