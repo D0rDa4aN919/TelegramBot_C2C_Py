@@ -32,7 +32,6 @@ This tool is provided for educational purposes only. The authors are not respons
 - Python 3.x:
 
   - [telepot library](https://telepot.readthedocs.io/en/latest/#send-a-message) (Install using pip install telepot)
-
   - [urllib3 1.24.1 library](https://urllib3.readthedocs.io/en/stable/) (Install using pip3 install urllib3==1.24.1)
 
 <h2>Usage</h2>
@@ -48,25 +47,31 @@ This tool is provided for educational purposes only. The authors are not respons
 
 - Create a Telegram bot and get your bot token:
   - Follow the official Telegram guide to create a new bot and obtain its token(using the Botfother).
-
+  
 - Get the chat ID of the group you want to work with those three methods:
   - Exectue the get_chat_id.py file and enter the bot API token and the chat name.
   - Get the chat id from the API getUpdate url: https://api.telegram.org/bot[bot API token]/getUpdates.
   - You can use tools like @userinfobot to get the chat ID of your group.
 
+!()[]
+    
 - Edit the shell.py file:
-Execute the create_agents.py and insert the amount of bots you want to use and there APIs, it will insert them and create new file in the ready_agents directory.
+  - Execute the create_agents.py and insert the amount of bots you want to use and there APIs, it will insert them and create new file in the ready_agents directory.
+
+!()[]
 
 - Transfer the new agents scripts to the targets machines.
+
+!(Transfer the scripts)[pics/transfer_the_bots.jpg]
 
 <h4>Target side:</h4>
 
 - When the target will execute the agent script it will wait to get commands via the telegram chat.
-    
+
 - Interact with the agent:
 In the Telegram group, send commands prefixed with linux, windows, or custom to execute predefined Linux, Windows, or custom commands respectively. The agent will execute the command and reply with the output.
 
-
+!()[]
 
 <h2 align="center">Security Considerations</h2>
 
