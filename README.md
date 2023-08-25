@@ -14,7 +14,7 @@ This tool is provided for educational purposes only. The authors are not respons
 
 <h2 align="center">Prerequisites</h2>
 
-<h4>Thread actor side</h4>
+<h4>Threat actor side</h4>
 
 - python 3.x:
   - [requests library](https://requests.readthedocs.io/en/latest/) (Install using pip install requests)
@@ -37,6 +37,8 @@ This tool is provided for educational purposes only. The authors are not respons
 
 <h2>Usage</h2>
 
+threat actor side:
+
 - Clone this repository to your local machine:
 
 ```
@@ -56,7 +58,9 @@ This tool is provided for educational purposes only. The authors are not respons
 Execute the create_agents.py and insert the amount of bots you want to use and there APIs, it will insert them and create new file in the ready_agents directory.
 
 - Transfer the new agents scripts to the targets machines.
-  
+
+Target side:
+
 - When the target will execute the agent script it will wait to get commands via the telegram chat.
   - '''
       python shell.py
@@ -75,8 +79,13 @@ Legality: Ensure that you comply with local laws and regulations before using th
 
 
 
-Contributing
-Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
+<h2 align="center">License</h2>
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+<h2 align="center">Author</h2>
+
+- [D0rDa4aN919](https://github.com/D0rDa4aN919)
+
+<h2 align="center">Acknowledgments</h2>
+The tool was developed to demonstrate how to produce and disseminate C2C telegram in a controlled setting. It is not meant to support or facilitate any nefarious or unlawful activity..
