@@ -1,26 +1,44 @@
-# TelegramBot_C2C_Py
-C2C tool that use the chat of telegram group as the C2C interface. The bots as agents that execute the command and send the result.
+<h1 align="center">TelegramBot_C2C_Py</h1>
+The TelegramBot C2C is a Python script that leverages the Telegram Bot API and the legimitmate use of API to establish a covert command and control (C2C) communication channel with remote agents(telegram bots as the agents). This tool enables you to execute predefined Linux, Windows, and custom commands on target systems and receive their output directly through Telegram group or chat. The use of the Telegram API allows for seamless communication without requiring Telegram to be installed on the target systems. Due to the use of the chat as the C2C interface it could run on the WAN without configration(even in VM network of NAT). The script will install all the requirements for the it run.
 
-TelegramBot_C2C_Py
-The TelegramBot C2C is a Python script that leverages the Telegram Bot API to establish a covert command and control (C2C) communication channel with remote agents(telegram bots). This tool enables you to execute predefined Linux, Windows, and custom commands on target systems and receive their output directly through Telegram group or chat. The use of the Telegram API allows for seamless communication without requiring Telegram to be installed on the target systems and run on the WAN without configration.
-The shell script will install all the pip requierments in the target side and use the chat as the C2C interface.
+<h2 align="center">Features</h2>
+- Command execution on remote target systems through Telegram.
+- Secure communication using Telegram's API.
+- Cross-platform support for Linux and Windows targets.
+- Predefined commands for common OS and the ability to run custom commands of the C2C.
+- Send a command to a spefic bot using: !![bot user-name] [command]
 
-Features
-Command execution on remote target systems through Telegram.
-Secure communication using Telegram's API.
-Cross-platform support for Linux and Windows targets.
-Predefined commands for common tasks and the ability to run custom commands.
+<h2 align="center">Prerequisites</h2>
 
-Prerequisites
-Python 3.x
--) telepot library (Install using pip install telepot)
--) urllib3 1.24.1 librar (Install using pip3 install urllib3==1.24.1)
-Usage
+<h4>Thread actor side</h4>
+
+- python 3.x:
+  - [requests library](https://requests.readthedocs.io/en/latest/) (Install
+ 
+- Script Needs:
+  - Install telegram and connect to the telegram account.
+  - Create bots for the agents and main chat group.
+  - Save the bot API and username.
+  - Get the chat id from the API getUpdate url: https://api.telegram.org/bot[bot API token]/getUpdates, or use the get_chat_id.py to extract the chat ids.
+  - Insert the bots with minimal administration privilege in the group chat.
+  - Run the create_agents.py to create the script with chat id and the bot API.
+
+<h4>Tagret side</h4>
+
+- Python 3.x:
+
+  - [telepot library](https://telepot.readthedocs.io/en/latest/#send-a-message) (Install using pip install telepot)
+
+  - [urllib3 1.24.1 library](https://urllib3.readthedocs.io/en/stable/) (Install using pip3 install urllib3==1.24.1)
+
+<h2>Usage</h2>
 Clone this repository to your local machine:
 
-git clone https://github.com/yourusername/telegrambot-reverse-shell.git
-cd telegrambot-reverse-shell
-Create a Telegram bot and get your bot token:
+```
+  git clone https://github.com/yourusername/telegrambot-reverse-shell.git
+  cd telegrambot-reverse-shell
+  Create a Telegram bot and get your bot token:
+```
 
 Follow the official Telegram guide to create a new bot and obtain its token.
 
