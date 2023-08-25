@@ -98,9 +98,7 @@ The tool was developed to demonstrate how to produce and disseminate C2C telegra
 
 <h2 align="center">reference</h2>
 
-- [C2C](https://medium.com/@dordaha491n/understanding-command-and-control-c2c-57cdc78a5216))
+- [C2C](https://medium.com/@dordaha491n/understanding-command-and-control-c2c-57cdc78a5216)
 - [C2C Telegram Chat Bot](https://medium.com/@dordaha491n/covert-communication-via-telegram-chat-a-c2c-bot-interface-924effbc659e)
-
 - [Telegram API Documentation](https://core.telegram.org/)
 
-- [Commmand and Control]()
