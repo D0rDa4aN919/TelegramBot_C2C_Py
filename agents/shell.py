@@ -1124,7 +1124,7 @@ This is your system information.
             return False
         elif command_split[0] == "ping":
             if len(command_split) == 2:
-                final_command = f"ping -c4 {command_split[-1]}" if LIN else f"ping {command_split[-1]}"
+                final_command = f"ping -c 4 {command_split[-1]}" if LIN else f"ping {command_split[-1]}"
                 self.execute_command(final_command.split(" "), mode=False)
             elif len(command_split) > 2:
                 self.output = "There is an error with the command ping to much text"
