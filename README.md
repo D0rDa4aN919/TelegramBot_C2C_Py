@@ -1,5 +1,5 @@
 <h1 align="center">TelegramBot_C2C_Py</h1>
-The TelegramBot C2C is a Python POC script that leverages the Telegram Bot API and the legitimate use of API to establish a covert command and control(C2C) communication channel with remote agents(telegram bots as the agents). This tool enables you to execute predefined Linux, Windows, and custom commands on target systems and receive their output directly through Telegram group or chat. The use of the Telegram API allows for seamless communication without requiring Telegram to be installed on the target systems. Due to the use of the chat as the C2C interface, it could run on the WAN without any other configuration (even in a VM network is on NAT), and bypass the defender(the only AV checked). The script will install all the requirements for it to run.
+The TelegramBot C2C is a Python POC script that leverages the Telegram Bot API and the legitimate use of API to establish a covert command and control(C2) communication channel with remote agents(telegram bots as the agents). This tool enables you to execute predefined Linux, Windows, and custom commands on target systems and receive their output directly through Telegram group or chat. The use of the Telegram API allows for seamless communication without requiring Telegram to be installed on the target systems. Due to the use of the chat as the C2 interface, it could run on the WAN without any other configuration (even in a VM network is on NAT), and bypass the defender(the only AV checked). The script will install all the requirements for it to run.
 
 
 <h4>Demonstration Diagram:</h4>
@@ -20,9 +20,9 @@ This tool is provided for educational purposes only. The authors are not respons
 - Command execution on remote target systems through Telegram.
 - Secure communication using Telegram's API.
 - Cross-platform support for Linux and Windows targets.
-- Predefined commands for common OS and the ability to run custom commands of the C2C.
+- Predefined commands for common OS and the ability to run custom commands of the C2.
 - Send a command to a spefic bot using: !![bot user-name] [command]
-- Help command that print the C2C command and the OS commands based on the OS it work at.
+- Help command that print the C2 command and the OS commands based on the OS it work at.
 
 <h2 align="center">Prerequisites</h2>
 
@@ -100,11 +100,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [D0rDa4aN919](https://github.com/D0rDa4aN919)
 
 <h2 align="center">Acknowledgments</h2>
-The tool was developed to demonstrate how to produce and disseminate C2C telegram in a controlled setting. It is not meant to support or facilitate any nefarious or unlawful activity..
+The tool was developed to demonstrate how to produce and disseminate C2 telegram in a controlled setting. It is not meant to support or facilitate any nefarious or unlawful activity..
 
 <h2 align="center">reference</h2>
 
-- [C2C](https://medium.com/@dordaha491n/understanding-command-and-control-c2c-57cdc78a5216)
-- [C2C Telegram Chat Bot](https://medium.com/@dordaha491n/covert-communication-via-telegram-chat-a-c2c-bot-interface-924effbc659e)
+- [C2](https://medium.com/@dordaha491n/understanding-command-and-control-c2c-57cdc78a5216)
+- [C2 Telegram Chat Bot](https://medium.com/@dordaha491n/covert-communication-via-telegram-chat-a-c2c-bot-interface-924effbc659e)
 - [Telegram API Documentation](https://core.telegram.org/)
 
