@@ -60,7 +60,7 @@ def creation(bot_amount: int, chat_id: str):
         with open(f"ready_agents/shell_id_{TOKEN.split(':')[0]}.py", "w") as file:
             file.write(final_text)
     print("The bot agent scripts are ready and exiting in ./ready_agents directory!.")
-    print("Install telegram for the C2C interface.")
+    print("Install telegram for the C2 interface.")
 
 
 def is_valid_token(token: str):
